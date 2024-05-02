@@ -111,4 +111,15 @@ void main()
 ```
 
 
+#
+<h3 align="center">3. Digital Clock</h3>
 
+###
+
+<h1 align="left"></h1>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/7b1a1acb-d0ad-4252-92db-8d3610028fec"  />
+</div>
