@@ -46,8 +46,6 @@ class _DigitalClockState extends State<DigitalClock> {
               ),
             ),
             SizedBox(height: 50,),
-            Text('${(months[dateTime.month-1])}',style: TextStyle(color: Colors.white,fontSize: 40),),
-            Spacer(),
             Text('${dateTime.day}/${dateTime.month}/${dateTime.year}', style: TextStyle(
                 color: Colors.white,
                 fontSize: 30,
@@ -72,7 +70,7 @@ class _DigitalClockState extends State<DigitalClock> {
           ],
         ),
       Text(
-        '${format[dateTime.weekday-1]}',
+        '${format[dateTime.weekday-1]}, ${months[dateTime.month]}',
         style: TextStyle(color: Colors.white, fontSize: 30),
       ),
       Spacer(),
