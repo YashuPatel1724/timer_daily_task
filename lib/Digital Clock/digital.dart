@@ -70,7 +70,7 @@ class _DigitalClockState extends State<DigitalClock> {
           ],
         ),
       Text(
-        '${format[dateTime.weekday-1]}, ${months[dateTime.month]}',
+        '${format[dateTime.weekday-1]}, ${months[dateTime.month-1]}',
         style: TextStyle(color: Colors.white, fontSize: 30),
       ),
       Spacer(),
@@ -121,4 +121,4 @@ class _DigitalClockState extends State<DigitalClock> {
   }
 }
 String? day;
-DateTime dateTime = DateTime.now();
+
