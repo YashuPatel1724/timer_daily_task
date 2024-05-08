@@ -123,3 +123,23 @@ void main()
 <div align="center">
   <img height="550" src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/7b1a1acb-d0ad-4252-92db-8d3610028fec"  />
 </div>
+
+
+#
+<h3 align="center">3. Analog Clock</h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+
+<div align="center">
+  <img height="550" src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/7ca6b95b-b5ab-4ff4-8730-daa0f536948d" />
+  <video src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/d23fffae-8c4f-4ab7-94ab-a738d575997a"> 
+</video>
+</div>
+
+
+
+
