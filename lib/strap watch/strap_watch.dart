@@ -96,7 +96,7 @@ class _StrapClockState extends State<StrapClock> {
                         children: [
                           InkWell(
                             onTap: () {
-                              Navigator.of(context).pushNamed('/');
+                              Navigator.of(context).pushReplacementNamed('/');
                             },
                             child: Container(
                               height: 60,
@@ -114,7 +114,7 @@ class _StrapClockState extends State<StrapClock> {
                           ),
                           InkWell(
                             onTap: () {
-                              Navigator.of(context).pushNamed('/ana');
+                              Navigator.of(context).pushReplacementNamed('/ana');
                             },
                             child: Container(
                               height: 60,
@@ -132,13 +132,13 @@ class _StrapClockState extends State<StrapClock> {
                           ),
                           InkWell(
                             onTap: () {
-                              Navigator.of(context).pushNamed('/strap');
+                              Navigator.of(context).pushReplacementNamed('/strap');
                             },
                             child: Container(
                               height: 60,
                               width: 60,
                               decoration: BoxDecoration(
-                                  color: Colors.blue,
+                                  color: Colors.teal,
                                   borderRadius: BorderRadius.circular(10)
                               ),
                               child: Icon(
@@ -148,17 +148,22 @@ class _StrapClockState extends State<StrapClock> {
                               ),
                             ),
                           ),
-                          Container(
-                            height: 60,
-                            width: 60,
-                            decoration: BoxDecoration(
-                                color: Colors.blue,
-                                borderRadius: BorderRadius.circular(10)
-                            ),
-                            child: Icon(
-                              Icons.timer_outlined,
-                              size: 40,
-                              color: Colors.white,
+                          InkWell(
+                            onTap: () {
+                              Navigator.of(context).pushReplacementNamed('/stop');
+                            },
+                            child: Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                  color: Colors.blue,
+                                  borderRadius: BorderRadius.circular(10)
+                              ),
+                              child: Icon(
+                                Icons.timer_outlined,
+                                size: 40,
+                                color: Colors.white,
+                              ),
                             ),
                           )
                         ],

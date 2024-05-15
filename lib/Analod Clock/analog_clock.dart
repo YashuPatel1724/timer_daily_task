@@ -149,7 +149,7 @@ class _AnalogClockState extends State<AnalogClock> {
                     children: [
                       InkWell(
                         onTap: () {
-                          Navigator.of(context).pushNamed('/');
+                          Navigator.of(context).pushReplacementNamed('/');
                         },
                         child: Container(
                           height: 60,
@@ -167,7 +167,7 @@ class _AnalogClockState extends State<AnalogClock> {
                       ),
                       InkWell(
                         onTap: () {
-                          Navigator.of(context).pushNamed('/ana');
+                          Navigator.of(context).pushReplacementNamed('/ana');
                         },
                         child: Container(
                           height: 60,
@@ -185,7 +185,7 @@ class _AnalogClockState extends State<AnalogClock> {
                       ),
                       InkWell(
                         onTap: () {
-                          Navigator.of(context).pushNamed('/strap');
+                          Navigator.of(context).pushReplacementNamed('/strap');
                         },
                         child: Container(
                           height: 60,
@@ -201,17 +201,22 @@ class _AnalogClockState extends State<AnalogClock> {
                           ),
                         ),
                       ),
-                      Container(
-                        height: 60,
-                        width: 60,
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius:BorderRadius.circular(10)
-                        ),
-                        child: Icon(
-                          Icons.timer_outlined,
-                          size: 40,
-                          color: Colors.white,
+                      InkWell(
+                        onTap: () {
+                          Navigator.of(context).pushReplacementNamed('/stop');
+                        },
+                        child: Container(
+                          height: 60,
+                          width: 60,
+                          decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius:BorderRadius.circular(10)
+                          ),
+                          child: Icon(
+                            Icons.timer_outlined,
+                            size: 40,
+                            color: Colors.white,
+                          ),
                         ),
                       )
                     ],
