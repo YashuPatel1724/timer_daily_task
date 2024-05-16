@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/stop',
+      initialRoute: '/',
       routes: {
         '/' : (context) => DigitalClock(),
         '/ana' : (context) => AnalogClock(),

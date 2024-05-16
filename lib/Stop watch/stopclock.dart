@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:js_interop';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -48,7 +49,7 @@ class _StopClockState extends State<StopClock> {
                 ),
                 alignment: Alignment.center,
                 child: Text(
-                  '${stopwatch.elapsed.inSeconds}',
+                  '${(stopwatch.elapsed.inMinutes).toString().padLeft(2,'0')} : ${(stopwatch.elapsed.inSeconds%60).toString().padLeft(2,'0')}',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 40,
