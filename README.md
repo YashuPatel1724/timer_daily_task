@@ -1,5 +1,24 @@
+<h1 align="center">👉 Timer App 👈</h1>
 
-<h3 align="center">1. Buttons </h3>
+<h3 align="center"> Timer App Video </h3>
+<div align="center">
+ <video src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/90c032f2-eb5f-411d-ba40-f9ba39cf226d"> 
+</video>
+</div>
+
+<h3 align="center">👉 Timer App Screen 👈</h3>
+
+<div align="center">
+  <img height="550"  src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/681c9c63-6b73-4814-9936-27755f3bbece" />
+  <img height="550"  src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/bd868f4b-2087-4407-8c70-c7661c82bc35" />
+  <img height="550"  src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/fa7de195-52e1-4b2d-be87-2a6ed4fb5730" />
+  <img height="550"  src="https://github.com/YashuPatel1724/timer_daily_task/assets/148859965/21ebb2ab-b468-430f-b149-743e89c7fe00" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/timer_daily_task/tree/master/lib">-> 📂 Go To Dart File 📂 </a>
+</div>
+
+<h3 align="center"> Buttons </h3>
 
 ###
 
